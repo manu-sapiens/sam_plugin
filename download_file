@@ -1,0 +1,16 @@
+#!/bin/bash
+url=$1
+filename=$2
+directory=$3
+
+if [ ! -d "$directory" ]; then
+    mkdir -p "$directory"
+fi
+
+pushd "$directory"
+
+if [ ! -f "$filename" ]; then
+    curl -LJO "$url/$filename"
+fi
+
+popd
