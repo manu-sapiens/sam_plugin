@@ -1,4 +1,3 @@
-@echo off
 if exist ".\venv" (
 
 	call .\venv\Scripts\activate
