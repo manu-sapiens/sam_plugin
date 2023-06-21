@@ -1,3 +1,4 @@
+@echo off
 if exist ".\venv" (
     echo Venv directory already exists. Aborting.
     exit /b

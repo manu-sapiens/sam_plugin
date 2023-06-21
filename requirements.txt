@@ -2,3 +2,4 @@ uvicorn==0.22.0
 fastapi==0.95.2
 httpx==0.24.1
 opencv-python==4.7.0.72
+colorama==0.4.6

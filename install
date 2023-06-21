@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 if [ -d "./venv" ]; then
     echo "Venv directory already exists. Delete it first? Aborting."
     exit 1
